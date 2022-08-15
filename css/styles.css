@@ -72,23 +72,19 @@ nav button{
 .navbar__menu ul {
     padding-left: 0;
     margin: 0;
-    text-align: center;
-    justify-content: space-between
+    text-align: right;
 }
 
 .navbar__menu li {
     display: inline-block;
-    /* background-color: rgb(73, 204, 17); */
     padding: 10px;
-   
     color: #000;
     text-align: center;
-    padding: 10px 20px;
-    margin: 5px;
+    
+    
 }
 .nav-active {
     background-color:rgba(24, 142, 48, 0.607);
-    box-shadow: rgb(76, 154, 46) 0px 0px 10px;
 }
 
 .navbar_menu li .your-active-class{
@@ -113,7 +109,7 @@ nav button{
   
 
 .navbar__menu .menu__link:hover {
-    background: #333;
+    background: rgb(39, 177, 18);
     color: #fff;
     transition: ease 0.3s all;
 }
@@ -153,52 +149,16 @@ nav button{
     }
 }
 
-@media only screen and (max-width: 610px){
-    .navbar__menu{
-        position: relative;
-    }
-    nav button {
-        display:block;
-        float: right;
-        margin-right: 1em;
-        padding: 0.5em;
-        background-color: rgb(0, 0, 0);
-    }
-    #humberger{
-        color: #fff;
-    }
-    .menu {
-        display: none;
-    }
-    #navbar__list li {
-        display: block;
-        color: #fff;
-    }
-    #navbar__list li a{
-        
-        color: #fff;
-    }
-    .navbar__menu .menu__link {
-       
-        padding: 0em; 
-        color: rgb(21, 109, 28);
-    }
-    .page__header{
-        background-color:rgba(0,13,60,1);
-        padding: 1em 1em 1em 0em;
-    }
+@media only screen and (max-width: 590px){
+    
     h1{
-        font-size: 2em;
-        margin-top: 8em;
+        font-size: 2.5em;
+        margin-top: 3.5em;
         text-align: center;
     }
     
 }
-.navbar__menu .active {
-    color: #fff;
-    background-color: rgb(39, 177, 18);
-    width: auto;
-  }
+
  
 section:nth-of-type(even) .landing__container {
     margin-right: 0;
